@@ -15,3 +15,7 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+Route::get('/list', 'ApiController@getList');
+Route::get('/show/{id}', 'ApiController@show');
