@@ -33,10 +33,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'ec2-107-21-102-69.compute-1.amazonaws.com',
-			'database' => 'd7h84o73mbhglj',
-			'username' => 'pdxjbrtzzvfbqg',
-			'password' => 's0PuY9HHOtWdeOHiTUEmlGecri',
+		    'host'     => 'ec2-54-204-35-248.compute-1.amazonaws.com',
+		    'database' => 'df1pbbk6imc81f',
+		    'username' => 'pjkfyaqwmvfsas',
+		    'password' => 'FpP8YsyZurg8re8Ykvs0VlDQVT',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
