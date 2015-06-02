@@ -64,13 +64,13 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'ec2-54-204-35-248.compute-1.amazonaws.com',
-			'database' => 'df1pbbk6imc81f',
-			'username' => 'pjkfyaqwmvfsas',
-			'password' => 'FpP8YsyZurg8re8Ykvs0VlDQVT',
-			'charset'  => 'utf8',
-			'prefix'   => '',
-			'schema'   => 'public',
+		    'host'     => parse_url(getenv("DATABASE_URL"))["host"],
+		    'database' => substr(parse_url(getenv("DATABASE_URL"))["path"], 1),
+		    'username' => parse_url(getenv("DATABASE_URL"))["user"],
+		    'password' => parse_url(getenv("DATABASE_URL"))["pass"],
+		    'charset'  => 'utf8',
+		    'prefix'   => '',
+		    'schema'   => 'public',
 		),
 
 		'sqlsrv' => array(
