@@ -4,8 +4,7 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"ext-mbstring": "*",
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.0"
 	},
 	"require-dev": {
  	   "way/generators": "~2.0",
