@@ -64,10 +64,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-		    'host'     => getenv("DATABASE_HOST"),
-		    'database' => getenv("DATABASE_NAME"),
-		    'username' => getenv("DATABASE_USER"),
-		    'password' => getenv("DATABASE_PASSWORD"),
+		    'host'     => 'ec2-54-204-35-248.compute-1.amazonaws.com',
+		    'database' => 'df1pbbk6imc81f',
+		    'username' => 'pjkfyaqwmvfsas',
+		    'password' => 'FpP8YsyZurg8re8Ykvs0VlDQVT',
 		    'charset'  => 'utf8',
 		    'prefix'   => '',
 		    'schema'   => 'public',
